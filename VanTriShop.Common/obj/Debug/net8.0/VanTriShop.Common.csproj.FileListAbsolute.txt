@@ -1,0 +1,15 @@
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\bin\Debug\net8.0\VanTriShop.Common.deps.json
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\bin\Debug\net8.0\VanTriShop.Common.dll
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\bin\Debug\net8.0\VanTriShop.Common.pdb
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.AssemblyInfoInputs.cache
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.AssemblyInfo.cs
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.csproj.CoreCompileInputs.cache
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.sourcelink.json
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.dll
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\refint\VanTriShop.Common.dll
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.pdb
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\ref\VanTriShop.Common.dll
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\bin\Debug\net8.0\VanTriShop.Common.runtimeconfig.json
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.csproj.AssemblyReference.cache
+C:\project_dotnet\vantriShopAPI\vantriShopAPI\VanTriShop.Common\obj\Debug\net8.0\VanTriShop.Common.genruntimeconfig.cache

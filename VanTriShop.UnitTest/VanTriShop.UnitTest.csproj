@@ -72,10 +72,6 @@
       <Project>{cf26294f-2e9f-4448-ac48-a9e00b08640b}</Project>
       <Name>VanTriShop.Service</Name>
     </ProjectReference>
-    <ProjectReference Include="..\VanTriShop.WebAPI\VanTriShop.WebAPI.csproj">
-      <Project>{5ecd0b5d-aacc-4c26-96e0-7e8edc1b1f0a}</Project>
-      <Name>VanTriShop.WebAPI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

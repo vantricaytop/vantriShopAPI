@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.Data", "VanTriShop.Data\VanTriShop.Data.csproj", "{B0949CB6-EB82-4D17-996C-C90F9A3CAEA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanTriShop.Data", "VanTriShop.Data\VanTriShop.Data.csproj", "{B0949CB6-EB82-4D17-996C-C90F9A3CAEA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.Common", "VanTriShop.Common\VanTriShop.Common.csproj", "{FD2F4C85-B38A-4AD4-A951-230E70C79161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanTriShop.Common", "VanTriShop.Common\VanTriShop.Common.csproj", "{FD2F4C85-B38A-4AD4-A951-230E70C79161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.Service", "VanTriShop.Service\VanTriShop.Service.csproj", "{CF26294F-2E9F-4448-AC48-A9E00B08640B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanTriShop.Service", "VanTriShop.Service\VanTriShop.Service.csproj", "{CF26294F-2E9F-4448-AC48-A9E00B08640B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.Model", "VanTriShop.Model\VanTriShop.Model.csproj", "{A7363C8A-A82A-4FCB-93B0-FC3F7B9163C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanTriShop.Model", "VanTriShop.Model\VanTriShop.Model.csproj", "{A7363C8A-A82A-4FCB-93B0-FC3F7B9163C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.UnitTest", "VanTriShop.UnitTest\VanTriShop.UnitTest.csproj", "{C351710F-B052-47AC-9A53-21A58DED04E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.WebAPI", "VanTriShop.WebAPI\VanTriShop.WebAPI.csproj", "{5ECD0B5D-AACC-4C26-96E0-7E8EDC1B1F0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.Web", "VanTriShop.Web\VanTriShop.Web.csproj", "{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{C351710F-B052-47AC-9A53-21A58DED04E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C351710F-B052-47AC-9A53-21A58DED04E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C351710F-B052-47AC-9A53-21A58DED04E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5ECD0B5D-AACC-4C26-96E0-7E8EDC1B1F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5ECD0B5D-AACC-4C26-96E0-7E8EDC1B1F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5ECD0B5D-AACC-4C26-96E0-7E8EDC1B1F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5ECD0B5D-AACC-4C26-96E0-7E8EDC1B1F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

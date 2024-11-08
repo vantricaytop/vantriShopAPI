@@ -1,0 +1,379 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Web\\VanTriShop.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj",
+        "projectName": "VanTriShop.Common",
+        "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Data\\VanTriShop.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Data\\VanTriShop.Data.csproj",
+        "projectName": "VanTriShop.Data",
+        "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Data\\VanTriShop.Data.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj": {
+                "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj"
+              },
+              "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Model\\VanTriShop.Model.csproj": {
+                "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Model\\VanTriShop.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Model\\VanTriShop.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Model\\VanTriShop.Model.csproj",
+        "projectName": "VanTriShop.Model",
+        "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Model\\VanTriShop.Model.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Service\\VanTriShop.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Service\\VanTriShop.Service.csproj",
+        "projectName": "VanTriShop.Service",
+        "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Service\\VanTriShop.Service.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj": {
+                "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Web\\VanTriShop.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Web\\VanTriShop.Web.csproj",
+        "projectName": "VanTriShop.Web",
+        "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Web\\VanTriShop.Web.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj": {
+                "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Common\\VanTriShop.Common.csproj"
+              },
+              "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Data\\VanTriShop.Data.csproj": {
+                "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Data\\VanTriShop.Data.csproj"
+              },
+              "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Model\\VanTriShop.Model.csproj": {
+                "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Model\\VanTriShop.Model.csproj"
+              },
+              "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Service\\VanTriShop.Service.csproj": {
+                "projectPath": "C:\\project_dotnet\\vantriShopAPI\\vantriShopAPI\\VanTriShop.Service\\VanTriShop.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
