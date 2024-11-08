@@ -1,25 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using VanTriShop.Data.Infrastructure;
+using VanTriShop.Data;
 
-namespace VanTriShop.Data.Infrastructure
+public class DbFactory : Disposable, IDbFactory
 {
-	public class DbFactory : Disposable, IDbFactory
-	{
-		private ShopDbContext context;
-		public ShopDbContext Init()
-		{
-			return context ?? (context = new ShopDbContext());
-		}
+	private ShopDbContext context;
+	private DbContextOptions<ShopDbContext> _options;
 
-		protected override void DisposeCore()
+	// Constructor nhận vào connectionString và tạo DbContextOptions
+	public DbFactory(string connectionString)
+	{
+		var optionsBuilder = new DbContextOptionsBuilder<ShopDbContext>();
+		optionsBuilder.UseSqlServer(connectionString); 
+		_options = optionsBuilder.Options;
+	}
+
+	public ShopDbContext Init()
+	{
+		return context ?? (context = new ShopDbContext(_options));
+	}
+
+	protected override void DisposeCore()
+	{
+		if (context != null)
 		{
-			if (context != null)
-			{
-				context.Dispose();
-			}
+			context.Dispose();
 		}
 	}
 }

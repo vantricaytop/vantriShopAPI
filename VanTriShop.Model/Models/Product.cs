@@ -25,8 +25,9 @@ namespace VanTriShop.Model.Models
 		public int CategoryID { get; set; }
 		[MaxLength(256)]
 		public string Image { get; set; }
+		
 		[Column(TypeName = "xml")]
-		public XElement MoreImages	{ get; set; }
+		public string MoreImages	{ get; set; }
 
 		public decimal Price { get; set; }
 		public decimal? PromotionPrice	{ get; set; }

@@ -1,7 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using VanTriShop.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Add DB
+builder.Services.AddDbContext<ShopDbContext>(options =>
+{
+	options.UseSqlServer(builder.Configuration.GetConnectionString("VanTriShopDb"));
+});
+
+
 
 var app = builder.Build();
 

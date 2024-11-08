@@ -11,9 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanTriShop.Service", "VanTr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanTriShop.Model", "VanTriShop.Model\VanTriShop.Model.csproj", "{A7363C8A-A82A-4FCB-93B0-FC3F7B9163C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.UnitTest", "VanTriShop.UnitTest\VanTriShop.UnitTest.csproj", "{C351710F-B052-47AC-9A53-21A58DED04E2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanTriShop.Web", "VanTriShop.Web\VanTriShop.Web.csproj", "{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VanTriShop.Web", "VanTriShop.Web\VanTriShop.Web.csproj", "{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{A7363C8A-A82A-4FCB-93B0-FC3F7B9163C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7363C8A-A82A-4FCB-93B0-FC3F7B9163C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7363C8A-A82A-4FCB-93B0-FC3F7B9163C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C351710F-B052-47AC-9A53-21A58DED04E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C351710F-B052-47AC-9A53-21A58DED04E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C351710F-B052-47AC-9A53-21A58DED04E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C351710F-B052-47AC-9A53-21A58DED04E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FBA005C-B7C0-43E7-AF38-3DDB12750D26}.Release|Any CPU.ActiveCfg = Release|Any CPU

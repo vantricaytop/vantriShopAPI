@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.InteropServices.Marshalling;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace VanTriShop.Data.Infrastructure
 {
 	public abstract class RepositoryBase<T> : IRepository<T> where T : class
 	{
 		#region Properties
-		private ShopDbContext _context;
-		private readonly IDbSet<T> _dbSet;
+		private ShopDbContext? _context;
+		private readonly DbSet<T> _dbSet;
 
 		protected IDbFactory DbFactory { get; private set; }
 
@@ -29,7 +29,7 @@ namespace VanTriShop.Data.Infrastructure
 		#region Implementation
 		public virtual T Add(T entity)
 		{
-			return _dbSet.Add(entity);
+			return _dbSet.Add(entity).Entity;
 		}
 
 		public virtual void Update(T entity)
@@ -41,7 +41,7 @@ namespace VanTriShop.Data.Infrastructure
 		public virtual T Delete(int id)
 		{
 			var entity = _dbSet.Find(id);
-			return _dbSet.Remove(entity);
+			return _dbSet.Remove(entity).Entity;
 		}
 
 		public virtual void DeleteMulti(Expression<Func<T, bool>> where)
@@ -137,7 +137,7 @@ namespace VanTriShop.Data.Infrastructure
 
 		public T Delete(T entity)
 		{
-			return _dbSet.Remove(entity);
+			return _dbSet.Remove(entity).Entity;
 		}
 
 		#endregion
