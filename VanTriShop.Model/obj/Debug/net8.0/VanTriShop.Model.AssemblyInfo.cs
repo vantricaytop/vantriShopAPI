@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VanTriShop.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+569280f7ce1da9e2f635cfbe8916c1626fc7d28f")]
 [assembly: System.Reflection.AssemblyProductAttribute("VanTriShop.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VanTriShop.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

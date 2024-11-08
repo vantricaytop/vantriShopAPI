@@ -18,7 +18,7 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44379</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -222,6 +222,24 @@
     <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.0.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VanTriShop.Common\VanTriShop.Common.csproj">
+      <Project>{fd2f4c85-b38a-4ad4-a951-230e70c79161}</Project>
+      <Name>VanTriShop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VanTriShop.Data\VanTriShop.Data.csproj">
+      <Project>{b0949cb6-eb82-4d17-996c-c90f9a3caea7}</Project>
+      <Name>VanTriShop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VanTriShop.Model\VanTriShop.Model.csproj">
+      <Project>{a7363c8a-a82a-4fcb-93b0-fc3f7b9163c2}</Project>
+      <Name>VanTriShop.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VanTriShop.Service\VanTriShop.Service.csproj">
+      <Project>{cf26294f-2e9f-4448-ac48-a9e00b08640b}</Project>
+      <Name>VanTriShop.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -240,7 +258,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>59829</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:59829/</IISUrl>
+          <IISUrl>https://localhost:44379/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
