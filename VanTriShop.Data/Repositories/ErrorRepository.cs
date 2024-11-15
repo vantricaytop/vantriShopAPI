@@ -8,12 +8,14 @@ using VanTriShop.Model.Models;
 
 namespace VanTriShop.Data.Repositories
 {
-	public interface IProductRepository : IRepository<Product>
+	public interface IErrorRepository : IRepository<Error>
 	{
 
 	}
-	public class ProductRepository : RepositoryBase<Product>, IProductRepository
+	public class ErrorRepository : RepositoryBase<Error>, IErrorRepository
 	{
-		public ProductRepository(DbFactory dbFactory) : base(dbFactory) { }
+		public ErrorRepository(IDbFactory bFactory) : base(bFactory)
+		{
+		}
 	}
 }

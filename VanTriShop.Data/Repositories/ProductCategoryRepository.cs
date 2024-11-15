@@ -8,7 +8,7 @@ using VanTriShop.Model.Models;
 
 namespace VanTriShop.Data.Repositories
 {
-	public interface IProductCategoryRepository
+	public interface IProductCategoryRepository : IRepository<ProductCategory>
 	{
 		IEnumerable<ProductCategory> GetByAlias(String alias);
 	}
