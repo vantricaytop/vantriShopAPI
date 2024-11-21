@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using VanTriShop.Model.Models;
 using VanTriShop.Web.Models;
+using VanTriShop.Web.Models.Product;
 
 namespace VanTriShop.Web.Mappings
 {
@@ -9,8 +10,9 @@ namespace VanTriShop.Web.Mappings
 		public AutoMapperConfiguration() {
 			CreateMap<Post, PostViewModel>();
 			CreateMap<PostCategory, PostCategoryViewModel>();
-			CreateMap<Tag, TagViewModel>();
-			CreateMap<PostTag, PostTagViewModel>();
+			CreateMap<Tag, TagViewModel>().ReverseMap();
+			CreateMap<PostTag, PostTagViewModel>().ReverseMap();
+			CreateMap<ProductCategory, ProductCategoryViewModel>().ReverseMap();
 		}
 		
 	}

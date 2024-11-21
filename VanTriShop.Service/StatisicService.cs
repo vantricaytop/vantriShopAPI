@@ -6,8 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace VanTriShop.Service
-{
-	internal class StatisicService
+{ 
+	public interface IStatisticService
+	{
+
+	}
+	public class StatisicService
 	{
 	}
 }

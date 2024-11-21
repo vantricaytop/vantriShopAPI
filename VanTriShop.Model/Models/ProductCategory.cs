@@ -22,6 +22,7 @@ namespace VanTriShop.Model.Models
 		public string Description { get; set; }
 		public int? ParentID	{ get; set; }
 		public int? DisplayOrder { get; set; }
+		public int? HomeOrder { set; get; }
 
 		public string Image {  get; set; }
 		public bool? HomeFlag { get; set; }

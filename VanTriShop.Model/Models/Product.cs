@@ -24,7 +24,7 @@ namespace VanTriShop.Model.Models
 		public string Alias { get; set; }
 		public int CategoryID { get; set; }
 		[MaxLength(256)]
-		public string Image { get; set; }
+		public string ThumbnailImage { get; set; }
 		
 		[Column(TypeName = "xml")]
 		public string MoreImages	{ get; set; }

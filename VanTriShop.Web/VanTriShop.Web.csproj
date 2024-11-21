@@ -12,16 +12,16 @@
     <PackageReference Include="Autofac.Mvc5" Version="6.1.0" />
     <PackageReference Include="Autofac.WebApi2" Version="6.1.1" />
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Bower" Version="1.3.11" />
     <PackageReference Include="EntityFramework" Version="6.5.1" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
-    <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.2.2" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.0.0" />
     <PackageReference Include="System.Diagnostics.Tools" Version="4.3.0" />
@@ -39,8 +39,11 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\" />
-    <Folder Include="Scripts\plugins\" />
-    <Folder Include="Scripts\spa\" />
+    <Folder Include="Models\Common\" />
+    <Folder Include="Models\DataContracts\" />
+    <Folder Include="Models\System\" />
+    <Folder Include="Models\Post\" />
+    <Folder Include="Scripts\" />
     <Folder Include="wwwroot\Assets\Admin\" />
     <Folder Include="wwwroot\Assets\Client\" />
   </ItemGroup>

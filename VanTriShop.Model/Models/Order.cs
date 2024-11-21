@@ -45,12 +45,12 @@ namespace VanTriShop.Model.Models
 
 		public bool Status {  get; set; }
 
-	/*	[StringLength(256)]
+		[StringLength(450)]
 		[Column(TypeName = "nvarchar")]
 		public string CustomerID { get; set; }
 
 		[ForeignKey("CustomerID")]
-		public virtual ApplicationUser User { get; set; }*/
+		public virtual AppUser User { get; set; }
 
 		public virtual IEnumerable<OrderDetail> OrderDetails { get; set; }
 	}
