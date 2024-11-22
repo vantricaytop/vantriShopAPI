@@ -1,6 +1,8 @@
-﻿namespace VanTriShop.Web.Models.Product
+﻿using VanTriShop.Web.Models.Common;
+
+namespace VanTriShop.Web.Models.Product
 {
-	public class ProductTagViewModel
+    public class ProductTagViewModel
 	{
 		public int ProductID { set; get; }
 
